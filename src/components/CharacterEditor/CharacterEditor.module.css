@@ -29,8 +29,8 @@
 }
 
 .characterWrapper {
-  position:fixed;
-  top:128px;
+  position:sticky;
+  top:20%;
   right: 0;
   min-height:500px;
 }
