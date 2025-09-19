@@ -2,14 +2,13 @@
   padding: 24px;
   /* Optical centering */
   padding-top: 18px;
+  min-height: 150px;
   background-color: white;
   border-radius: 8px;
-  /*
-    HACK: Margin on an outer bound like this is
-    a little gross, but we haven't seen the tools
-    to deal with it yet!
-  */
+  overflow-x: auto;
+  white-space: nowrap;
   margin-bottom: 32px;
+  position:relative;
 }
 
 .title {
